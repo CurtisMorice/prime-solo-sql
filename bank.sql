@@ -55,4 +55,4 @@ INSERT INTO accounts (username, city, transactions_completed, transactions_attem
 
 		SELECT * FROM accounts WHERE city IN ('miami', 'phoenix') AND transactions_completed < 5  ;
 
-		DELETE FROM accounts WHERE user_id IN ('16','20');
+		DELETE FROM accounts WHERE user_id IN ('6','10','16','20');
